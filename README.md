@@ -1,16 +1,36 @@
-# React + Vite
+🍳 Recipe Card Project
+This is a simple and responsive Recipe Card web application built with React. It showcases a recipe for a "Simple Omelette" with an interactive "Favorite" feature.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Persistent Favorites: Users can add the recipe to their favorites. The choice is saved in the browser using localStorage, so it stays there even if you refresh the page.
 
-Currently, two official plugins are available:
+Clean UI: A modern design using Bootstrap and custom CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Reusable Components: The code is organized into small, reusable parts like Section, Ingredients, and Instructions.
 
-## React Compiler
+Responsive: Works perfectly on mobile, tablet, and desktop.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Built With
+React.js - JavaScript library for building user interfaces.
 
-## Expanding the ESLint configuration
+Bootstrap 5 - For the layout and styling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS3 - For custom fonts and hover effects.
+
+📦 How to Run the Project
+Clone the project:
+
+Bash
+git clone https://raw.githubusercontent.com/username/project-name
+Install dependencies:
+
+Bash
+npm install
+Start the app:
+
+Bash
+npm start
+📝 Project Structure
+App.js: Contains the main logic, state management (Hooks), and the recipe data.
+
+App.css: Contains the styling, including the custom colors (#854632) and fonts.
