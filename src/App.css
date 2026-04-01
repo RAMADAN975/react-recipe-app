@@ -1,0 +1,44 @@
+body {
+  background-color: #f3e5d8;
+  font-family: 'Outfit', sans-serif;
+}
+
+.recipe-card {
+  max-width: 736px;
+  transition: 0.3s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.01);
+}
+
+.title-font {
+  font-family: 'Young Serif', serif;
+  color: #312e2c;
+}
+
+.section-title {
+  color: #854632;
+  font-family: 'Young Serif', serif;
+}
+
+.color-primary {
+  color: #854632;
+}
+
+ul li::marker {
+  color: #854632;
+}
+
+ol li::marker {
+  color: #854632;
+  font-weight: bold;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
